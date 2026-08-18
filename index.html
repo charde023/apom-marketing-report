@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>에이폼 마케팅 전수 · 2026-08-17</title>
+  <style>
+    :root {
+      --bg: #0f1216;
+      --panel: #171c22;
+      --line: #2a333d;
+      --text: #e8edf2;
+      --muted: #8b98a5;
+      --expand: #3dd68c;
+      --hold: #f5c14a;
+      --cut: #f0a35e;
+      --kill: #ff6b6b;
+      --wait: #7aa2ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Pretendard", "Apple SD Gothic Neo", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    main { max-width: 980px; margin: 0 auto; padding: 28px 20px 80px; }
+    h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: -0.03em; }
+    .sub { color: var(--muted); margin-bottom: 28px; }
+    .hero {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+    .stat, .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px;
+    }
+    .stat b { display: block; font-size: 22px; margin-top: 4px; }
+    .stat span, .k { color: var(--muted); font-size: 12px; }
+    .actions { display: grid; gap: 10px; margin: 18px 0 32px; }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+    }
+    .tag {
+      font-size: 12px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+    .expand { color: #08351f; background: var(--expand); }
+    .hold { color: #3b2c05; background: var(--hold); }
+    .cut { color: #3a2208; background: var(--cut); }
+    .kill { color: #3d0b0b; background: var(--kill); }
+    .wait { color: #091533; background: var(--wait); }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { color: var(--muted); font-weight: 600; }
+    details { margin: 18px 0; }
+    summary { cursor: pointer; color: var(--muted); margin-bottom: 10px; }
+    .note { color: var(--muted); font-size: 13px; }
+    @media (max-width: 720px) {
+      .hero { grid-template-columns: 1fr 1fr; }
+      .row { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>에이폼 마케팅 전수</h1>
+  <p class="sub">기준일 2026-08-17 · 판결 2026-08-18 · 시즌검색 + 손익재고 + 광고학습 → 에이폼 마케터</p>
+
+  <section class="hero">
+    <div class="stat"><span>14일 GMV</span><b>4,468만</b></div>
+    <div class="stat"><span>14일 광고비</span><b>1,174만</b></div>
+    <div class="stat"><span>광고비율</span><b>26.3%</b></div>
+    <div class="stat"><span>상위 3 비중</span><b>79.9%</b></div>
+  </section>
+
+  <div class="card">
+    <div class="k">오늘 판결</div>
+    <p>T 내릴 상품은 없다. 시즌이 끝났거나 가드가 축소면 T를 내리는 것은 지출을 키운다. 확대는 고리공병 파스텔 90ml 하나이고, 오늘은 잠겨 있다.</p>
+  </div>
+
+  <h2>콘솔</h2>
+  <div class="actions">
+    <div class="row"><div>흡착식 · 레인부츠 · 헤어타올 · 꽃다발</div><span class="tag kill">꺼라</span></div>
+    <div class="row"><div>쿨타올 · 죽은 그룹 되살리지 마라</div><span class="tag kill">중단 유지</span></div>
+    <div class="row"><div>분수물총 · T 380 · 예산 40만 · 죽은 옵션만</div><span class="tag hold">다이얼 금지</span></div>
+    <div class="row"><div>화이트 고리공병 · T 400 내리지 마라</div><span class="tag cut">축소</span></div>
+    <div class="row"><div>고리공병 파스텔 · T 430 밴드 안 · 잠금 후 손잡이 하나</div><span class="tag expand">확대 대기</span></div>
+  </div>
+
+  <h2>상품 판결</h2>
+  <table>
+    <thead>
+      <tr><th>상품</th><th>시즌</th><th>가드</th><th>T / 예산</th><th>판결</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>고리공병 파스텔</td><td>비시즌</td><td>90ml 확대</td><td>430 / 45만</td><td>오늘 손대지 마. 잠금 후 확대</td></tr>
+      <tr><td>고리공병 화이트</td><td>비시즌</td><td>90ml 축소</td><td>400 / 30만</td><td>T 내리지 마. 커버 6일</td></tr>
+      <tr><td>분수물총</td><td>수확 · 8/18주 오프</td><td>유지 · 확대거부</td><td>380 / 40만</td><td>다이얼 금지. 죽은 옵션만</td></tr>
+      <tr><td>쿨타올</td><td>수확 끝</td><td>축소</td><td>380 / 18만</td><td>그룹 되살리지 마</td></tr>
+      <tr><td>헤어타올</td><td>비시즌 · 월검색 340</td><td>축소</td><td>340 / 6만</td><td>꺼라</td></tr>
+      <tr><td>레인부츠</td><td>종료 7/27</td><td>축소/중단</td><td>500 / 5만</td><td>꺼라</td></tr>
+      <tr><td>꽃다발</td><td>종료 2월</td><td>확대거부</td><td>510 / 3만</td><td>꺼라</td></tr>
+      <tr><td>흡착식</td><td>비시즌</td><td>중단</td><td>550 / 3만</td><td>꺼라</td></tr>
+      <tr><td>용돈박스</td><td>종료 5월</td><td>옐로우 축소</td><td>500 / 6만</td><td>T 내리지 마</td></tr>
+      <tr><td>등산스틱</td><td>시즌 전</td><td>축소</td><td>400 / 7만</td><td>8월에 키우지 마</td></tr>
+      <tr><td>에어쉐프</td><td>비시즌</td><td>대표 유지</td><td>400 / 3만</td><td>원형/소형만 꺼라</td></tr>
+      <tr><td>뉴스탭</td><td>비시즌</td><td>유지</td><td>570 / 4.5만</td><td>유지</td></tr>
+      <tr><td>인덕션</td><td>비시즌</td><td>유지</td><td>380 / 7만</td><td>다이얼 금지</td></tr>
+      <tr><td>브러쉬 공병</td><td>비시즌</td><td>유지</td><td>550 / 3만</td><td>다이얼 금지</td></tr>
+      <tr><td>아이젠 · 산타 · 크리스마스</td><td>종료</td><td>중단</td><td>—</td><td>손대지 마</td></tr>
+      <tr><td>러닝벨트</td><td>검색 피크</td><td>중단</td><td>—</td><td>광고 아님. 상페 문제</td></tr>
+    </tbody>
+  </table>
+
+  <details>
+    <summary>14일 상위 매출</summary>
+    <table>
+      <thead><tr><th>상품</th><th>GMV</th><th>비중</th><th>광고비율</th></tr></thead>
+      <tbody>
+        <tr><td>고리공병</td><td>1,516만</td><td>33.9%</td><td>13.8%</td></tr>
+        <tr><td>고리공병 화이트</td><td>1,032만</td><td>23.1%</td><td>28.4%</td></tr>
+        <tr><td>분수물총</td><td>1,023만</td><td>22.9%</td><td>36.7%</td></tr>
+        <tr><td>쿨타올</td><td>271만</td><td>6.1%</td><td>35.5%</td></tr>
+        <tr><td>헤어타올</td><td>109만</td><td>2.4%</td><td>44.4%</td></tr>
+      </tbody>
+    </table>
+    <p class="note">등록상품 40개. 14일 판매 0은 25개. 고아 VID 39만은 표 밖.</p>
+  </details>
+
+  <p class="note">T·예산은 2026-08-18 광고학습 Supabase 실측. 시즌은 시즌검색, 가드는 손익재고. 실행은 사람 콘솔. Pages가 켜지면 이 숫자는 공개 주소로 나간다.</p>
+</main>
+</body>
+</html>
